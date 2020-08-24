@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src = "sketch.js" defer></script>
+</head>
+<body>
+  <div id = "container">
+    <div id = "container-canvas">
+  <canvas id = "canvasFill" width = "800px" height = "600px"></canvas>
+  <canvas id = "canvasText" width = "800px" height = "600px"></canvas>
+</div>
+  <div id = "container-side">
+  <h1 id = "title">Snake Game</h1>
+  <h2><span id = "score">Score: 0 / </span><span id = "speed">Speed: 0/ms</span></h2>
+  <h3 id = "instruction">Instruction:</h3>
+  <p id = "ins">Using arrow keys to control the white snake to eat food
+    as many as possible. Eating every 10 food will automatically increase the speed of
+    snake movement. Enjoy!
+    <br>
+    <span id = "control">
+    P - pause / C - continue / R - restart
+    </span>
+  </p>
+</div>
+</div>
+</body>
